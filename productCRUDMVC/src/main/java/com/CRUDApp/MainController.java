@@ -39,7 +39,7 @@ public class MainController {
 	
 	@RequestMapping( value = "/handelProduct" ,method = RequestMethod.POST)
 	public RedirectView handelproduct(@ModelAttribute Product product,HttpServletRequest request) {
-		System.out.println(product);
+		System.out.println(product+"hiiiii");
 		pDao.createProduct(product);
 		
 		RedirectView redirectView =  new RedirectView();
