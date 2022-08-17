@@ -19,7 +19,7 @@ public class ProductDao {
 	//create
 	@Transactional
 	public void createProduct(Product product) {
-		
+		System.out.println("sid");
 		this.hibernateTemplate.saveOrUpdate(product);
 	}
 	

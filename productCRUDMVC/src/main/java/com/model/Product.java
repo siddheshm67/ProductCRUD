@@ -40,6 +40,7 @@ public class Product {
 	}
 	public void setPrice(String price) {
 		this.price = price;
+		System.out.println("price here it is :)..");
 	}
 	
 	public Product(Integer id, String name, String description, String price) {
