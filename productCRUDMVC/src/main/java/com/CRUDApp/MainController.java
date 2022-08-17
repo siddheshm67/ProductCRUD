@@ -28,6 +28,7 @@ public class MainController {
 		List<Product> pList = pDao.getaProducts();
 		System.out.println("sysout : "+pList);
 		model.addAttribute("products", pList);
+		System.out.println("8881212");
 		return"home";
 	}
 	
